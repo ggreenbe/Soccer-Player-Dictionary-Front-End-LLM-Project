@@ -1,0 +1,6 @@
+{
+  "name": "Tactical Pitch - Soccer Player Dictionary",
+  "description": "Interactive EA FC style tactical soccer field, cartoon player ratings, and stats engine based on the Python player dictionary.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #06090f;
+    color: #f1f5f9;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    overflow-x: hidden;
+  }
+}
+
+.font-display {
+  font-family: 'Syne', sans-serif;
+}
+
+.font-tactical {
+  font-family: 'Chakra Petch', monospace, sans-serif;
+}
+
+/* Custom EA FC style glowing text & holographic gradients */
+.text-gold-gradient {
+  background: linear-gradient(135deg, #fff 0%, #fbbf24 50%, #d97706 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-cyan-gradient {
+  background: linear-gradient(135deg, #ffffff 0%, #38bdf8 60%, #0284c7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-rose-gradient {
+  background: linear-gradient(135deg, #ffffff 0%, #fb7185 60%, #e11d48 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Stadium Floodlight Animation & Vignette */
+.stadium-vignette {
+  background: radial-gradient(circle at 50% 50%, rgba(14, 165, 233, 0.04) 0%, rgba(6, 9, 15, 0.85) 90%);
+}
+
+.pitch-grass-stripes {
+  background: repeating-linear-gradient(
+    90deg,
+    #135626,
+    #135626 4.166%,
+    #155f2a 4.166%,
+    #155f2a 8.333%
+  );
+}
+
+/* EA FC Card Hologram sheen */
+.eafc-card-sheen {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.15) 0%,
+    rgba(255, 255, 255, 0.03) 40%,
+    rgba(0, 0, 0, 0.3) 100%
+  );
+}
+
+/* Custom athletic custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.6);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(56, 189, 248, 0.3);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(56, 189, 248, 0.6);
+}

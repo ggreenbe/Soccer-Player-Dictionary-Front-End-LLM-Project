@@ -1,17 +1,20 @@
-# Soccer-Player-Dictionary-Front-End-LLM-Project
-A front-end display for my Soccer Dictionary Project vibe-coded with Google AI studio. 
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
 
-### Key Features and Extensions
+# Run and deploy your AI Studio app
 
-In this project, I wanted to make the dictionary much more presentable through visualized stats, ratings, and realistic player avatars that still gave the vibe of a game.
-- A full 11vs11 pitch with legends on one side and the current stars on the other side. Their avatars are all displayed with a name and rating beneath them.
-- Different horizontal carousels of players that includes stats, rankings and more that are used for stat rankings, leaders, and career stat ratings. I made sure to include animations to make the design more fluid and high-quality.
-- Each player has a high-quality cartoon avatar that really puts the design together.
+This contains everything you need to run your app locally.
 
-### Challenges and Ran Into
-My biggest challenge was finding a way to effectively display each player in the rankings. Originally, the rankings were just a list of names, but I thought the rankings are the most useful part of the app, so making the display feel premium was my biggest priority. I wanted a way to create a visual hierarchy, which is traditionally done through a vertical scroll. However, I wanted this app to be used mostly on computers, so I prioritized horizontal scrolling to take advantage of the computer's width.
+View your app in AI Studio: https://ai.studio/apps/7eaf19cb-09df-4f4e-9ab4-4fcd87dd7a0e
 
-### What I'd Improve With More Time
-With more time and resources, I'd love to incorporate more video motion, 3d modeling, and an overall more experiential display, rather than something that requires a lot of clicking. Additionally, I'd work on removing a lot of common AI design choices by making the decisions in each part more intentional design-wise.
+## Run Locally
 
-Made by Graham Greenberg | [github.com/ggreenbe](https://github.com/ggreenbe) 
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
