@@ -13,4 +13,4 @@ My biggest challenge was finding a way to effectively display each player in the
 ### What I'd Improve With More Time
 With more time and resources, I'd love to incorporate more video motion, 3d modeling, and an overall more experiential display, rather than something that requires a lot of clicking. Additionally, I'd work on removing a lot of common AI design choices by making the decisions in each part more intentional design-wise.
 
-Made by Graham Greenberg | github.com/ggreenbe
+Made by Graham Greenberg | [github.com/ggreenbe](https://github.com/ggreenbe)
